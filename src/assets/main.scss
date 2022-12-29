@@ -68,3 +68,8 @@ main {
     object-fit: contain;
   }
 }
+@media only screen and (max-width: 460px) {
+  .single-pokemon-card {
+    min-width: 300px;
+  }
+}
